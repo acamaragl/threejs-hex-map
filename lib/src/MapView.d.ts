@@ -46,7 +46,6 @@ export default class MapView implements MapViewControls, TileDataSource {
     updateTiles(tiles: TileData[]): void;
     getTile(q: number, r: number): TileData;
     addObject(): void;
-    addSpotLight(): THREE.SpotLight;
     private animate;
     onWindowResize(event: Event): void;
     setScrollDir(x: number, y: number): void;
